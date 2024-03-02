@@ -32,23 +32,4 @@ td a:hover{
     background-color: white;
     color: black;
 }
-@media (min-width:300px) and (max-width:700px){
-    table,th,td{
-        width: 100px;
-        
-
-    }
-    .container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: -110px;
-    }
-    td {
-        font-size: 25px;
-        padding: 2px;
-    }
-   
-
-}
 
