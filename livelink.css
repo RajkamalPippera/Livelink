@@ -32,3 +32,45 @@ td a:hover{
     background-color: white;
     color: black;
 }
+
+@media (max-width:767px){
+    body{
+        width: 80%;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: lightblue;
+
+
+    }
+    table{
+        background: linear-gradient(to right,red,blue);
+    
+        
+    
+    }
+    table,th,td{
+        border: 2px solid white;
+        border-collapse: collapse;
+        color: white;
+        font-size: 20px;
+    
+    }
+    td a{
+        text-decoration: none;
+        color: white;
+        border: 1px solid white;
+        padding: 2px;
+        border-radius: 5px;
+    }
+    td a:hover{
+        background-color: white;
+        color: black;
+    }
+   
+   
+   
+
+}
