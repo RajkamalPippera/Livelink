@@ -32,45 +32,23 @@ td a:hover{
     background-color: white;
     color: black;
 }
+@media (min-width:300px) and (max-width:700px){
+    table,th,td{
+        width: 100px;
+        
 
-@media (max-width:768px){
-    body{
-        width: 80%;
     }
     .container{
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: lightblue;
-
-
+        margin-left: -110px;
     }
-    table{
-        background: linear-gradient(to right,red,blue);
-    
-        
-    
-    }
-    table,th,td{
-        border: 2px solid white;
-        border-collapse: collapse;
-        color: white;
-        font-size: 20px;
-    
-    }
-    td a{
-        text-decoration: none;
-        color: white;
-        border: 1px solid white;
+    td {
+        font-size: 25px;
         padding: 2px;
-        border-radius: 5px;
     }
-    td a:hover{
-        background-color: white;
-        color: black;
-    }
-   
-   
    
 
 }
+
